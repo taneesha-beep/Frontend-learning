@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdf6f0;
+}
+
+/* Header Styling */
+h1 {
+    background-color: #ffdee9;
+    background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+    color: #4b1248;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    letter-spacing: 1.5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Choices section */
+.choice {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.choice:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(75, 18, 72, 0.2);
+}
+
+/* Images inside choice */
+img {
+    height: 125px;
+    width: 125px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #4b1248;
+}
+
+/* Layout of all choices */
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 2rem;
+}
+
+/* Scoreboard container */
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+/* Individual score block */
+.score {
+    background-color: #ffe5ec;
+    padding: 3rem;
+    margin: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+
+.score p:first-child {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #960052;
+}
+
+.score p:last-child {
+    font-size: 1.2rem;
+    color: #4b1248;
+}
+
+/* Message display box */
+.message {
+    background-color: lavender;
+    color: rgb(51, 4, 53);
+    font-size: 2rem;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    margin-top: 2rem;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
