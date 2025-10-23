@@ -10,4 +10,4 @@ Each folder includes a self-contained project with its own files and structure.
 
 ## 👩‍💻 
 These projects were created as part of my frontend development practice.  
-More projects will be added as I continue to learn and improve :)
+I plan to add more projects as I continue to learn and improve :)
